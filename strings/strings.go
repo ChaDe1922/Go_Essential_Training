@@ -14,7 +14,7 @@ func main() {
 
 	//You can access individual bytes using [], indexing starts at 0
 	fmt.Printf("book[0] = %v (type %T)\n", book[0], book[0])
-	//uint8 is a byte
+	//uint8 is a byte in Go.
 
 	//Strings in Go are immutable and unchangeable
 	//book[0] = 116 <----- This right here, it don't work!
